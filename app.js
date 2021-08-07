@@ -21,6 +21,20 @@ var txtInput = document.querySelector("#txt-Input");
 console.log(txtInput);
 console.log(txtInput.value);  // Read Value of tag/txt-Input
 
+// Reference to DIV OUTPUT
+
+var outputDiv = document.querySelector("#output");
+
+btnTranslate.addEventListener("click", function clickHandler(){
+
+    outputDiv.innerText = "asdjlas " + txtInput.value;
+})
+
+// function clickHandler(){
+//     outputDiv.innerText = "asfsfasf " + txtInput.value;
+// };
+
+// btnTranslate.addEventListener("click", clickHandler);
 
 
 
