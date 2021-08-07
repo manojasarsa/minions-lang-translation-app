@@ -14,4 +14,13 @@ btnTranslate.addEventListener("click", function clickHandler(){
     console.log("clicked");
 })
 
+// Reference to TEXTAREA "INPUT"
+
+var txtInput = document.querySelector("#txt-Input");
+
+console.log(txtInput);
+console.log(txtInput.value);  // Read Value of tag/txt-Input
+
+
+
 
