@@ -1,2 +1,2 @@
-# minnion-lang-translation-app
+# minions-lang-translation-app
  Translation App using VanillaJS.
