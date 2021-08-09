@@ -2,11 +2,22 @@
 
 :root {
     --primary-color: #F2C94C;
+    --width-break: 800px;
     
 }
 body { 
     font-family: 'Satisfy', cursive;
-    margin: 0px;
+    margin: 0;
+}
+
+textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: 'Satisfy', cursive;
 }
 
 /** Navigation **/
@@ -33,20 +44,35 @@ body {
     margin: auto;
     padding-top: 5rem;
 }
-/** Footer **/
+
+.div-txt{
+    padding: 0rem 0rem 0.5rem 7.5rem;
+    margin: auto;
+}
 
 .footer {
+    background-color: var(--primary-color);
+    text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 1rem;
-    background-color: var(--primary-color);
-    text-align: center;
+    padding: 0.5rem;
+    padding-inline-start: 0px;
 }
-
+footer{
+    display: block;
+}
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
     color: black;
+}
+
+.footer .para{
+    text-align: center;
+    max-width: var(--width-break);
+    color: rgb(61, 55, 55);
+    margin: auto;
+    padding: 0.5rem;
 }
 
